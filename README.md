@@ -17,16 +17,12 @@ You need `python 2.7`, `Google Cloud SDK` and `Node.js` installed.
 First install the python and node packages:
 
     git clone https://github.com/amv/
-    pip install -r requirements.text -t lib
+    pip install -r requirements.txt -t lib
     npm install
 
-Then start the gulp translator watcher in the background:
+Then start the gulp translator watcher in the background, and then the GAE dev server in the foreground after a few seconds:
 
-    gulp &
-
-Then start the Google App Engine dev server:
-
-    dev_appserver.py .
+    gulp & sleep 5; dev_appserver.py .
 
 You can then test the service using curl, but bear in mind that it has an intentional 1000 ms delay for showcasing the Promise in action:
 
