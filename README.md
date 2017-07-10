@@ -1,4 +1,4 @@
-= Google App Engine Standard with Js2Py ES2015 JavaScript template
+# Google App Engine Standard with Js2Py ES2015 JavaScript template
 
 This project is a proof of concept on how to take ES6 code with Promises and required NPM modules, and package it to be run in the Google App Engine Python Standard environment.
 
@@ -10,7 +10,7 @@ This project is a proof of concept on how to take ES6 code with Promises and req
 
 Please note that this template is for academic purposes, and it is not very advisable to run it in production ;)
 
-== Installation
+## Installation
 
 You need `python 2.7`, `Google Cloud SDK` and `Node.js` installed.
 
