@@ -16,7 +16,8 @@ You need `python 2.7`, `Google Cloud SDK` and `Node.js` installed.
 
 First install the python and node packages:
 
-    git clone https://github.com/amv/
+    git clone https://github.com/amv/gae-js2py-es2015-example
+    cd gae-js2py-es2015-example
     pip install -r requirements.txt -t lib
     npm install
 
